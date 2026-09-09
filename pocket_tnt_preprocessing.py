@@ -18,9 +18,6 @@ from pathlib import Path
 import pandas as pd
 
 
-# =============================================================================
-# CONFIGURATION
-# =============================================================================
 
 DATA_PATH = Path("data/raw")
 COUNTERBALANCING_FILE = Path("data/counterbalancing/Counterbalancing.xlsx")
