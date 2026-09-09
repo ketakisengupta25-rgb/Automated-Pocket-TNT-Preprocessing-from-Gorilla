@@ -1,6 +1,6 @@
 # Pocket TNT Data Processing
 
-Python preprocessing pipeline for the Pocket Think/No-Think (Pocket TNT) study.
+Python preprocessing pipeline for the Pocket Think/No-Think (Pocket TNT) study, which is a test battery which quantifies memory control.
 
 ## Overview
 
