@@ -17,30 +17,7 @@ The pipeline:
 - combines datasets across counterbalancing conditions, and
 - exports the final processed dataset.
 
-## Repository structure
 
-```text
-pocket-tnt-analysis/
-│
-├── pocket_tnt_preprocessing.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── data/
-│   ├── raw/
-│   └── counterbalancing/
-│
-└── outputs/
-```
-
-## Installation
-
-Clone the repository and install the required Python packages:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Data
 
@@ -48,29 +25,23 @@ Raw participant data are not included in this public repository.
 
 Place Gorilla Excel exports in:
 
-```text
 data/raw/
-```
+
 
 Place the counterbalancing workbook in:
 
-```text
 data/counterbalancing/Counterbalancing.xlsx
-```
+
 
 ## Running the analysis
 
 From the repository folder, run:
 
-```bash
 python pocket_tnt_preprocessing.py
-```
 
 The processed dataset will be saved to:
 
-```text
 outputs/Pocket_TNT_combined.xlsx
-```
 
 ## Requirements
 
@@ -78,6 +49,3 @@ outputs/Pocket_TNT_combined.xlsx
 - pandas
 - openpyxl
 
-## Author
-
-Ketaki Sengupta
